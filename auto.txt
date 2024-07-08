@@ -1,0 +1,12 @@
+id                      MEDIUMINT               NOT_NULL, AUTO_INCREMENT
+brand                   VARCHAR(30)             NOT_NULL
+model                   VARCHAR(50)             NOT_NULL
+veichle_type            VARCHAR(20)             NOT_NULL
+fuel_type               VARCHAR(15)             NOT_NULL
+price                   DECIMAL(10,2)           NOT_NULL
+doors_number            TINYINT                 NULL, UNSIGNED
+traction_type           TINYINT                 NULL, SIGNED
+condition               VARCHAR(20)             NULL
+outside_coloure         VARCHAR(20)             NOT_NULL            
+inside_colour           VARCHAR(20)             NOT_NULL
+registration_date       DATE                    NULL
